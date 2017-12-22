@@ -57,6 +57,9 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 fatalError("Model failed to process image")
             }
             
+            print("")
+            print("Predictions:")
+            print("")
             print(results)
             
             DispatchQueue.main.async {
